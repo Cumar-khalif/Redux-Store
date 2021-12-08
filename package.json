@@ -1,0 +1,28 @@
+{
+  "name": "redux-store",
+  "version": "1.0.0",
+  "description": "## Your Task",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "engines": {
+    "node": "14.17.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cumar-khalif/Redux-Store.git"
+  },
+  "author": "Omar A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cumar-khalif/Redux-Store/issues"
+  },
+  "homepage": "https://github.com/Cumar-khalif/Redux-Store#readme",
+  "dependencies": {
+    "concurrently": "^6.4.0"
+  }
+}
